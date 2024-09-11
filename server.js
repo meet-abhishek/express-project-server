@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/message', (req, res) => {
-    res.send('This is a Back-End response');
+    res.json({ message: 'This is a Back-End response' });
 })
 
 // Start server
